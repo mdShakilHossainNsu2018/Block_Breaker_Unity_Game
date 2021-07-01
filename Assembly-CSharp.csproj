@@ -54,9 +54,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\LoseCollider.cs" />
+     <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\Scripts\Paddle.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
-     <Compile Include="Assets\Scripts\Block.cs" />
+     <Compile Include="Assets\Scripts\Level.cs" />
+     <Compile Include="Assets\Scripts\GameStatus.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -685,6 +687,10 @@
       <Project>{00c80efa-b54e-43c5-d675-bed10a6dbe51}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Sysroot.Linux_x86_64.csproj">
+      <Project>{fa852026-e9ea-f217-2151-61e5e2c37c66}</Project>
+      <Name>Unity.Sysroot.Linux_x86_64</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{0e153267-890e-fe80-34b5-302eddf23529}</Project>
       <Name>Unity.Timeline</Name>
@@ -709,9 +715,9 @@
       <Project>{467077d3-8938-a92e-081b-3e2c9ff8b6d3}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{5b93c19d-76a3-f3f2-0a39-1b990b44b400}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    <ProjectReference Include="Unity.Toolchain.Linux-x86_64.csproj">
+      <Project>{a44fe89f-8a9f-135c-3d40-5ccf5e2018b3}</Project>
+      <Name>Unity.Toolchain.Linux-x86_64</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{42c1b81f-6769-6eba-5c42-e17391806379}</Project>
@@ -724,6 +730,10 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{62001165-e10b-4313-b106-113c3202ae6d}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{5b93c19d-76a3-f3f2-0a39-1b990b44b400}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{a285af93-790b-0471-ad77-5f7ed4b2df8d}</Project>
@@ -772,14 +782,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{2beabf80-2d49-6df3-64ee-585024586840}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Sysroot.Linux_x86_64.csproj">
-      <Project>{fa852026-e9ea-f217-2151-61e5e2c37c66}</Project>
-      <Name>Unity.Sysroot.Linux_x86_64</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Toolchain.Linux-x86_64.csproj">
-      <Project>{a44fe89f-8a9f-135c-3d40-5ccf5e2018b3}</Project>
-      <Name>Unity.Toolchain.Linux-x86_64</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.SysrootPackage.Editor.csproj">
       <Project>{77fd03a9-e0a2-74d3-aef3-4a5da9d74362}</Project>

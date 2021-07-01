@@ -147,9 +147,9 @@
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SpriteSkin\SpriteSkinCompositeDebugWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\IMGUI\RectSelectionTool.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\OutlineGenerator\IOutlineGenerator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\SkinningCache\CharacterCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SpriteLib\SpriteResolverInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\LayoutOverlay\ScrollableToolbar.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\SkinningCache\CharacterCache.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\SkinningCache\SkeletonCacheExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\VisibilityTool\VisibilityToolBase.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.5\Editor\SkinningModule\ModuleToolGroup.cs" />

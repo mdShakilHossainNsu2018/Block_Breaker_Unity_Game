@@ -53,8 +53,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.sysroot@0.1.19-preview\Editor\NiceIO.cs" />
-     <Compile Include="Library\PackageCache\com.unity.sysroot@0.1.19-preview\Editor\Unity.SysrootPackage.cs" />
      <Compile Include="Library\PackageCache\com.unity.sysroot@0.1.19-preview\Editor\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.sysroot@0.1.19-preview\Editor\Unity.SysrootPackage.cs" />
      <None Include="Library\PackageCache\com.unity.sysroot@0.1.19-preview\Editor\Unity.SysrootPackage.Editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/shakil/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
